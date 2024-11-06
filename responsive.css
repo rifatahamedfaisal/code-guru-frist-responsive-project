@@ -1,0 +1,169 @@
+@media screen and (max-width: 576px) {
+    .nav_bar{
+        width: 350px;
+        padding-top: 20px;
+        
+    }
+    .nav_list{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+        font-size: 30px;
+    }
+    .bannar_section{
+        width: 90%;
+    }
+    .brand-title h1{
+        font-size: 30px;
+    }
+    .brand-title p{
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .bannar_img img{
+        height: 200px;
+    }
+    .Features-section{
+        width: 85%;        
+    }
+    .Features-container{
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .image-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Features-enjoy-section{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .Features-title h2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Features-part{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Features-title-text{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .Features-title-text h2{
+        width: 100%;
+        font-size: 35px;
+    }
+    .Experience-part{
+        margin-left: 5%; 
+    }
+    .Facts-section{
+        width: 100%;
+    }
+    .Facts-title p{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .product-catagory{
+        grid-template-columns: repeat(1,1fr);
+        width: 50%;
+        margin:20px auto;
+        gap: 20px;
+    }
+    .Sponspors-section{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .Sponspors-title p{
+        width: 90%;
+    }
+    .Sponspors-img{
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .footer-title{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-title p{
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .nav_bar{
+        width:90%;
+    }
+    .brand-title p{
+        width:90%;
+    }
+   
+    .Features-section{
+        width: 100%;
+    }
+    .Features-container{
+        flex-direction: column;
+    }
+    .Features-title h2{
+        width: 70%;
+        margin: auto;
+    }
+    .Features-title p{
+        width: 70%;
+        margin:20px auto;
+    }
+    .Features-title{
+        text-align: center;
+    }
+    .Features-enjoy-section{
+        width:90%;
+        margin: auto;
+    }
+    .Features-part{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Features-title-text{
+        width: 100%;
+    }
+    .catagoty-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .Experience-part{
+        margin-left: 20%;
+    }
+    .Facts-title p{
+        width: 80%;
+    }
+    .product-catagory{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .Sponspors-section{
+        width: 90%;
+        margin-top: 80px;
+    }
+    .Sponspors-title p{
+        width:62%;
+    } 
+    .Sponspors-img{
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .footer-title{
+        width: 90%;
+    
+        margin: 30px auto;
+    }
+}
