@@ -100,8 +100,18 @@
     .nav_bar{
         width:90%;
     }
+    .nav_list{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+        font-size: 30px;
+    }
     .brand-title p{
         width:90%;
+    }
+    .bannar_img img{
+        width: 100%;
     }
    
     .Features-section{
