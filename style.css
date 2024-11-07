@@ -27,6 +27,13 @@
     color: black;
     font-size: 22px;
     cursor: pointer;
+    padding: 9px;
+    border-radius: 10px;
+}
+.nav_list a:hover{
+   background-color: orange;
+   transition: all ease 0.6s;
+  
 }
 .menu-bar{
     display: none;
@@ -58,6 +65,12 @@
     border-radius: 10px;
     margin-bottom: 50px;
     cursor: pointer;
+    text-shadow: 2px 2px 5px red;
+}
+
+.explore-btn:hover{
+    background-color: rgb(140, 177, 245);
+    transition: all ease 0.5s;
 }
 .bannar_img{
     padding-bottom: 40px;
@@ -184,6 +197,15 @@
     width: 240px;
     height: 180px;
     text-align: center;
+    border-radius: 10px;
+    
+}
+.single-product:hover{
+    cursor: pointer;
+    background-color: rgb(140, 177, 245);
+    transition: all ease 1s;
+    color: black;
+    border: none;
 }
 .single-product img{
     margin-top: 13%;
@@ -220,7 +242,7 @@
     margin-bottom: 120px;
 }
 .Sponspors-img img{
-   
+   cursor: pointer;
     opacity: 0.6;
 }
 .amazon-img{
